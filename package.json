@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "ag": "node ag.js"
+    "ng": "node ng.js"
   },
   "keywords": [],
   "author": "",

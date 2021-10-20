@@ -5,7 +5,7 @@ const proxyConfigArg = process.argv.find((a) => a.startsWith("--proxy-config="))
 if (proxyConfigArg) {
   const proxyConfig = proxyConfigArg.split(/=(.+)/)[1];
 
-  exec(`AG_PROXY_CONFIG=${proxyConfig} npm run ag`, (error, stdout, stderr) => {
+  exec(`AG_PROXY_CONFIG=${proxyConfig} npm run ng`, (error, stdout, stderr) => {
     if (error) {
       console.log(`error: ${error.message}`);
       return;
