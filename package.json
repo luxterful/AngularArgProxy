@@ -1,0 +1,13 @@
+{
+  "name": "script_envs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ag": "node ag.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
